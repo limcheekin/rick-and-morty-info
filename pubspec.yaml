@@ -11,32 +11,31 @@ dependencies:
     sdk: flutter
 
   # UI
-  pagination_view: ^0.7.0
+  pagination_view: ^1.0.3
   ant_icons: ^1.0.0
   cached_network_image: ^2.1.0+1
 
   # Network
-  graphql_flutter: ^3.0.0
+  graphql_flutter: ^3.0.1
   data_connection_checker: ^0.3.4
 
   # Dart data class
   json_serializable: ^3.3.0
-  freezed_annotation: ^0.7.1
+  freezed_annotation: ^0.11.0
 
   # Dependency Injection
   get_it: ^4.0.1
-  injectable: ^0.3.0
+  injectable: ^0.4.0+1
 
   # State management
-  bloc: ^3.0.0
-  flutter_bloc: ^3.2.0
+  flutter_bloc: ^4.0.1
 
   # Caching
   hive: ^1.4.1+1
 
   # Misc
-  dartz: ^0.8.9
-  rxdart: ^0.23.1
+  dartz: ^0.9.1
+  rxdart: ^0.24.1
   path_provider: ^1.6.5
 
 dev_dependencies:
@@ -44,15 +43,15 @@ dev_dependencies:
     sdk: flutter
 
   # Code generators
-  freezed: ^0.10.6
-  injectable_generator: ^0.3.4
+  freezed: ^0.11.2
+  injectable_generator: ^0.4.1
   build_runner: ^1.8.1
 
   # Linting
   effective_dart: ^1.2.1
 
   # Testing
-  bloc_test: ^4.0.0
+  bloc_test: ^5.0.1
   mockito: ^4.1.1
 
 flutter:

@@ -16,7 +16,7 @@ abstract class IHomeRemoteDataSource {
 }
 
 @lazySingleton
-@RegisterAs(IHomeRemoteDataSource)
+@Injectable(as: IHomeRemoteDataSource)
 class HomeRemoteDataSource implements IHomeRemoteDataSource {
   HomeRemoteDataSource(this._client);
 

@@ -27,7 +27,7 @@ abstract class IHomeLocalDataSource {
 }
 
 @lazySingleton
-@RegisterAs(IHomeLocalDataSource)
+@Injectable(as: IHomeLocalDataSource)
 class HomeLocalDataSource implements IHomeLocalDataSource {
   HomeLocalDataSource(this._box);
 
